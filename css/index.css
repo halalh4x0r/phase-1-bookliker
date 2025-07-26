@@ -1,4 +1,43 @@
 body {
-	display: grid;
-	grid-template-columns: 2fr 8fr
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+#list {
+  list-style: none;
+  padding: 0;
+  max-width: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+#list li {
+  cursor: pointer;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+#show-panel {
+  max-width: 600px;
+  float: left;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+#show-panel img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #198754;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
